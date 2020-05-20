@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width= device-width, initial-scale=1.0" />
+<title>Flights for Less Home</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./style.css" type="text/css"/>
+<style>
+/* visited link */
+a:visited {
+  color: White;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+</style>
+</head>
+<body>
+	<div class="header">
+		<header>
+			<img src="./Ffl.PNG" alt="Ffl Logo" />
+			<h2>Flights for Less</h2>
+
+		</head>
+	</div>
+	<ul>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="contactUs.html">Contact Us</a></li>
+		<li><a href="MyAccount.html">My Account</a></li>
+		<li><a href="Search.html">Search</a></li>
+		 
+	</ul>
+
+    <div class="divSideBar">
+	<label for="from"><b>From</b></label> 
+	<div class="divAlign">
+		<input type="text" size="10" placeholder="City or Airport" name="from" required> <br/>
+	</div>
+						
+	<label for="to"><b>To</b></label> 
+	<div class="divAlign">
+		<input type="text" size="10" placeholder="City or Airport" name="to" required> <br/>
+	</div>
+	<label for="to"><b>Travelling Dates</b></label> 
+	<div class="divAlign">
+		<input type="text"	size="10" placeholder="Enter Dates" name="dates" required> <br><br/>
+	</div>
+						
+	<select class="form__Adult" id="Adult" name="Adult">
+		<option selected disabled class="option-is-disabled">1 Adult</option>
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select> 
+	&nbsp;&nbsp;
+	<select class="form__Children" id="Children" name="Children">
+		<option selected disabled class="option-is-disabled">0 Children</option>
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select><br/><br/>
+	<select class="form__Economy" id="Economy" name="Economy">
+		<option selected disabled class="option-is-disabled">Economy</option>
+		<option value="Economy">Economy</option>
+		<option value="Premium Economy">Premium Economy</option>
+		<option value="Business">Business</option>
+		<option value="First">First</option>
+	</select> <br/><br/>	
+	<input type="submit" value="Search Flights">
+    </div>
+
+
+ <table style="margin-left:30%;overflow-x:auto;" border="0" >  
+  <tr>
+    <td style="width:50%;"><a href="./srinu/images"><img src="./images/Popular.jpg" alt="Popular" style="width:85%;"></a><h3>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular Destinations</h3></td>
+    <td rowspan="2"><a href=""><img src="./images/Cheap-Flight.jpg" alt="Cheap-Flight" style="width:85%;height:555px;"></a></td>
+  </tr>
+  <tr>
+    <td style="width:50%;"><a href=""><img src="./images/Deals.jpg" alt="Deals" style="width:85%;"></a></td>
+  </tr>
+  <tr>
+  <td style="width:50%;"><h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deals</h3></img></td>
+  </tr>
+ </table>
+    <ul>
+		
+		<li><a href="Insurance.html">Insurance</a></li>
+		<li><a href="Careers.html">Careers</a></li>
+		<li><a href="aboutUs.html">About Us</a></li>
+		 
+	</ul>
+	<footer style="color:black;">
+	<a href="html_images.asp">Facebook</a>	 / <a href="html_images.asp">Twitter</a><br/>
+		Copyright @ 2020 - 2021
+	</footer>
+</body>
+</html>
